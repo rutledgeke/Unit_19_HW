@@ -25,6 +25,7 @@ h1 {
 header ul {
   float: right;
   color: #005F73;
+  padding: 25px;
 }
 header li {
   display: inline-block;
