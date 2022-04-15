@@ -1,0 +1,129 @@
+
+/* COLOR PALLET 
+https://coolors.co/fffbfe-202c39-84dcc6-ff686b-c78283
+#005F73 - Blue Sapphire
+A4BBC2 - light blue
+BB3E03 - Rust
+9B2226 - Ruby Red
+E9D8A6 - Medium Champagne
+0A9396 - Viridian Green  rgb(10, 147, 150)
+*/
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #A4BBC2
+}
+header {
+  background-color: #A4BBC2;
+  padding: 15px;
+}
+h1 { 
+  font-family: 'Hurricane', cursive;
+  color: #005F73
+}
+header ul {
+  float: right;
+  color: #005F73;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  background-color: #A4BBC2;
+}
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #005F73;
+  text-align: center;
+}
+button {
+  padding: 5px;
+  background-color: #A4BBC2;
+  color: #E9D8A6;
+  font-size: 15px;
+  border-radius: 1px;
+}
+footer {
+  background-color: #A4BBC2;
+  padding: 3px;
+  color: #005F73;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 2px 2px;
+  font-size: 45px;
+
+  
+}
+/* My UX Skills Section */
+/*/.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+/*/
+/* My Work Section */
+.myWork {
+  padding: 0px 0px; 
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #005F73;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 500px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 60px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}
