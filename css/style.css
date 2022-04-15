@@ -53,9 +53,9 @@ header p {
 }
 button {
   padding: 5px;
-  background-color: #A4BBC2;
+  background-color: #0A9396;
   color: #E9D8A6;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 1px;
 }
 footer {
@@ -75,7 +75,6 @@ footer li {
   text-align: center;
   padding: 2px 2px;
   font-size: 45px;
-
   
 }
 /* My UX Skills Section */
@@ -110,6 +109,7 @@ footer li {
   max-width: 250px;
   margin: 0;
   display: block;
+  float: right;
 }
 .img1 {
   grid-area: img1;
