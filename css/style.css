@@ -98,7 +98,7 @@ footer li {
 .workGrid {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 350px 500px 350px;
+  grid-template-rows: 325px 500px 325px;
   grid-template-areas:
   "img1 content1"
   "img2 content2"
